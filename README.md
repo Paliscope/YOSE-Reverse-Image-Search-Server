@@ -34,3 +34,18 @@ other file formats.
 The visual similarity gives a similar score. Sort by similarity and present them as long as you like. Typically 85-90% similarity and above is relevant to show, but it depends on your use case of how many false matches you want to present.
 
 #cbir, #reverseimagesearch #visualsimilarity #phash #CEDD #FTHC #net
+
+
+# CREDIT
+Savvas A. Chatzichristofis
+https://chatzichristofis.info/
+
+Clifton Core Pipes
+https://github.com/cliftonm/clifton/tree/master/Clifton.Core/Clifton.Core.Pipes
+
+Shipwreck Phash
+https://github.com/pgrho/phash
+
+
+
+
