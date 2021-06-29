@@ -46,6 +46,9 @@ https://github.com/cliftonm/clifton/tree/master/Clifton.Core/Clifton.Core.Pipes
 Shipwreck Phash
 https://github.com/pgrho/phash
 
+MessagePack
+https://github.com/neuecc/MessagePack-CSharp
+
 
 
 
