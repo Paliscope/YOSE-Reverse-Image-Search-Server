@@ -1,6 +1,3 @@
-# YOSE-Image-Server
-Reverse Image Search Server
-
 # YOSE-Reverse-Image-Search
 .NET library to perform reverse image search in very high performance with good accuracy.
 
