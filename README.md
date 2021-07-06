@@ -19,6 +19,8 @@ Performance is great. Even when having 100 of millions of images in the database
 
 When more than 100 million images in the index, the matching is parallel, the reason is that below that, the matching is so fast so starting a parallel for loop is taking more time than the matching procedure.
 
+We are also using ther visual groups concepts to avoid having multiple copies of the same files in the visual similarity index -> Saving time and also avoiding potential stack trace bugs in the trew if having 100.000+ files which as visually identical.
+
 # Using the code
 Download the code and compile it. Either using it as a separate server outside your application or embed it into your existing application. Start with adding images to the index. When finished query the database either using the hash value of the file or a byte array of the picture.
 The server is using a system of hash value of the + frame index when the image comes from a video, if the picture comes from a bitmap, the index is -1.
